@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4c00ff, #00aaff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 550px;
+}
+h2 {
+    text-align: center;
+    color: #4c00ff;
+}
+.formu-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.formu-grupo div {
+    width: 48%;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+input, button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.genero-grupo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn {
+    background: #ff5733;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #e04b2a;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
